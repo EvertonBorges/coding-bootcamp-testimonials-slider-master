@@ -81,6 +81,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .navigation a img {
@@ -105,8 +106,8 @@ footer {
 
     .pattern-texts {
         padding: 75px 0 0;
-        margin-right: -225px;
-        max-width: 700px;
+        margin-right: -222.5px;
+        max-width: 692.5px;
         background-position: 105px 0;
     }
 
@@ -148,7 +149,7 @@ footer {
 @media(max-width: 1299px) {
 
     .pattern {
-        margin: 25px;
+        margin: 37.5px;
     }
 
     .pattern-datas {

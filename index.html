@@ -15,7 +15,7 @@
 <body>
 
   <main class="pattern">
-    <section class="pattern-datas">
+    <section id="pattern" class="pattern-datas">
       <div class="pattern-texts">
         <div class="pattern-text">
           <label class="pattern-description">
@@ -30,8 +30,8 @@
       <div class="pattern-photo">
         <img src="./images/image-tanya.jpg" alt="Tanya Sinclair">
         <div class="navigation">
-          <a class="nav-left" href="#"><img src="./images/icon-prev.svg" alt="prev"></a>
-          <a class="nav-right" href="#"><img src="./images/icon-next.svg" alt="next"></a>
+          <a class="nav-left" onclick="switchPattern(-1)"><img src="./images/icon-prev.svg" alt="prev"></a>
+          <a class="nav-right" onclick="switchPattern(1)"><img src="./images/icon-next.svg" alt="next"></a>
         </div>
       </div>
     </section>
@@ -44,5 +44,7 @@
       repository in <a target="_blank" href="https://github.com/EvertonBorges/coding-bootcamp-testimonials-slider-master">github</a>
     </label>
   </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
