@@ -88,6 +88,10 @@ body {
     height: 35%;
 }
 
+footer {
+    text-align: center;
+}
+
 @media(min-width: 1300px) {
 
     .pattern {
@@ -133,6 +137,10 @@ body {
         left: 132.5px;
         bottom: 30px;
         height: 50px;
+    }
+
+    footer {
+        font-size: 0.5em;
     }
 
 }
@@ -190,6 +198,10 @@ body {
         left: calc(50% - 40px);
         bottom: calc(13% - 20px);
         height: 40px;
+    }
+
+    footer {
+        font-size: 0.4em;
     }
 
 }
